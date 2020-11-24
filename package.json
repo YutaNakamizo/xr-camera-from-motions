@@ -1,0 +1,30 @@
+{
+  "name": "xr-camera-from-motions",
+  "version": "1.0.0",
+  "description": "A JavaScript library to get viewpoint from device motions in xR space on web browser",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YutaNakamizo/xr-camera-from-motions.git"
+  },
+  "keywords": [
+    "xR",
+    "AR",
+    "VR",
+    "MR",
+    "viewpoint",
+    "motion",
+    "orientation",
+    "position",
+    "rotation"
+  ],
+  "author": "Yuta NAKAMIZO <yuta.nakamizo@ggtk.app> (https://ggtk.app)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YutaNakamizo/xr-camera-from-motions/issues"
+  },
+  "homepage": "https://github.com/YutaNakamizo/xr-camera-from-motions#readme"
+}
