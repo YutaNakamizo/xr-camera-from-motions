@@ -4,7 +4,9 @@
   "description": "A JavaScript library to get viewpoint from device motions in xR space on web browser",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./config/webpack.config.pro.js",
+    "dev": "webpack -w --config ./config/webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,17 @@
   "bugs": {
     "url": "https://github.com/YutaNakamizo/xr-camera-from-motions/issues"
   },
-  "homepage": "https://github.com/YutaNakamizo/xr-camera-from-motions#readme"
+  "homepage": "https://github.com/YutaNakamizo/xr-camera-from-motions#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.8",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "babel-root-import": "^4.1.8",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "device-motions-js": "^1.0.1"
+  }
 }
